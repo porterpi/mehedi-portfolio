@@ -5,8 +5,24 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Personal portfolio built with Next.js 15 + Tailwind 4 + next-themes",
+  title: "Mehedi Hasan | Portfolio",
+  description: "Personal portfolio of Mehedi Hasan, showcasing projects, skills, and experience.",
+  openGraph: {
+    title: "Mehedi Hasan | Portfolio",
+    description: "Personal portfolio of Mehedi Hasan",
+    url: "https://my-portfolio.com", // Replace with your actual URL ==[REMAIN TO UPDATE]==
+    siteName: "Mehedi Hasan Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "My Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
