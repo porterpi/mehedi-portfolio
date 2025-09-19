@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mehedi Hasan | Portfolio",
     description: "Personal portfolio of Mehedi Hasan",
-    url: "https://my-portfolio.com", // Replace with your actual URL ==[REMAIN TO UPDATE]==
+    url: "https://mister-mehedi.vercel.app/",
     siteName: "Mehedi Hasan Portfolio",
     images: [
       {
