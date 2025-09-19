@@ -17,6 +17,10 @@ export default function Navbar() {
           <Link href="/projects" className="hover:underline">
             Projects
           </Link>
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+
           <Link href="/contact" className="hover:underline">
             Contact
           </Link>
