@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* smooth scroll + theme transitions */
-html {
-  scroll-behavior: smooth;
+html, body {
+  @apply antialiased;
 }
